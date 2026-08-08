@@ -39,11 +39,3 @@ The IR sensors detect the difference between the black line and the surrounding 
 
 The Arduino reads the sensor output and determines the direction of the line.
 
-Based on the sensor readings, the Arduino controls the motor driver:
-
-| Sensor Condition        | Robot Movement |
-|                         |                |
-| Line detected in center | Move Forward   |
-| Line detected on left   | Turn Left      |
-| Line detected on right  | Turn Right     |
-| No line detected        | Stop / Search  |
